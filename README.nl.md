@@ -2,7 +2,7 @@ scenario-management
 
 # Scenario management
 
-> Sluglijn
+> Slugline
 
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)

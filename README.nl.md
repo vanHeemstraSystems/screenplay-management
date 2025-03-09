@@ -6,7 +6,7 @@ scenario-management
 
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [Glossarium](./GLOSSARY.md)
 -   [Klep](./HATCH.md)
 -   [Gastheren](./HOSTS.md)
 -   [Beelden](./IMAGES.md)
@@ -24,7 +24,7 @@ Gegenereerd met[Ritr](https://app.rytr.me)
 
 ## 100 - Inleiding
 
-See [README.md](./100/README.md)
+Zien[README.md](./100/README.md)
 
 ## 200 - Vereisten
 

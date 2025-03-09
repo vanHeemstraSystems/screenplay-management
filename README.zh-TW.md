@@ -18,19 +18,19 @@
 
 **執行摘要**
 
-Text
+文字
 
 生成[ritr](https://app.rytr.me)
 
 ## 100-簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200-要求
 
 看[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300-構建我們的應用程序
 
 看[README.md](./300/README.md)
 

@@ -6,9 +6,9 @@ Repository-Namen
 
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
--   [Glossar](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
--   [Gastgeber](./HOSTS.md)
+-   [Hosts](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)

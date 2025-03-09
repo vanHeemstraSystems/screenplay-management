@@ -8,7 +8,7 @@
 -   [文档](./DOCUMENTATION.md)
 -   [词汇表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
--   [Hosts](./HOSTS.md)
+-   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [nx](./NX.md)
 -   [Subman](./PODMAN.md)

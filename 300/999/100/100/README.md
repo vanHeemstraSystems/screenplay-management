@@ -116,3 +116,124 @@ erDiagram
 
     SCREENPLAY ||--|| THEME : explores
 ```
+
+
+I'll update the ERD to reflect the breakdown of the Slugline into its three distinct components.
+
+I've updated the Entity-Relationship Diagram to reflect the decomposition of the Slugline into its three component entities:
+
+1. **SCENE_TYPE**:
+   - Contains the `code` attribute (EXT or INT)
+   - Includes a description field for additional context
+   - Connected to the Slugline through a one-to-one relationship
+
+2. **LOCATION**:
+   - Contains the `name` attribute for the specific setting
+   - Includes a description field for additional details
+   - Has an `isRecurring` flag to indicate locations used multiple times
+   - Connected to the Slugline through a one-to-one relationship
+
+3. **TIME_OF_DAY**:
+   - Contains the `code` attribute (DAY, NIGHT, DAWN, DUSK, etc.)
+   - Includes a description field for clarification
+   - Connected to the Slugline through a one-to-one relationship
+
+The SLUGLINE entity now serves as a connecting entity that references these three components, maintaining the same relationship with SCENE as before.
+
+This structure offers several advantages:
+- Clearer representation of the slugline components
+- Better data normalization
+- Support for reusing locations across scenes
+- Ability to standardize scene types and times of day
+- Improved query capabilities (e.g., finding all scenes at the same location)
+
+This updated ERD aligns perfectly with the microservice architecture in the NX monorepo structure we'll discuss later, where each of these entities has its own dedicated service.
+
+```mermaid
+---
+title: Screenplay Entity-Relationship Diagram
+---
+erDiagram
+    SCREENPLAY ||--o{ ACT : contains
+    SCREENPLAY ||--o{ CHARACTER : features
+    SCREENPLAY ||--o{ SCENE : includes
+    SCREENPLAY {
+        string title
+        string genre
+        string logline
+        date creationDate
+    }
+
+    ACT {
+        int actNumber
+        string primaryPurpose
+    }
+
+    CHARACTER {
+        string name
+        string archetype
+        string mainGoal
+        string backgroundStory
+    }
+
+    SCENE ||--|| SLUGLINE : has
+    SLUGLINE ||--|| SCENE_TYPE : uses
+    SLUGLINE ||--|| LOCATION : references
+    SLUGLINE ||--|| TIME_OF_DAY : indicates
+    
+    SCENE_TYPE {
+        string code "EXT or INT"
+        string description
+    }
+    
+    LOCATION {
+        string name
+        string description
+        boolean isRecurring
+    }
+    
+    TIME_OF_DAY {
+        string code "DAY, NIGHT, etc."
+        string description
+    }
+
+    SCENE {
+        string action
+    }
+
+    CHARACTER ||--o{ DIALOGUE : speaks
+    CHARACTER ||--o{ CHARACTER_ARC : undergoes
+
+    DIALOGUE {
+        string text
+        string type
+        int pageNumber
+    }
+
+    CHARACTER_ARC {
+        string initialState
+        string transformationPath
+        string finalState
+    }
+
+    SCENE ||--|| PLOT_POINT : advances
+    PLOT_POINT {
+        string type
+        string description
+        int pageNumber
+    }
+
+    SCENE ||--o{ CONFLICT : contains
+    CONFLICT {
+        string type
+        string intensity
+        string resolution
+    }
+
+    THEME {
+        string primaryTheme
+        string subThemes
+    }
+
+    SCREENPLAY ||--|| THEME : explores
+```

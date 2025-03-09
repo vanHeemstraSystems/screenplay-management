@@ -1,6 +1,6 @@
-nom de référentiel
+gestion du scénario
 
-# Nom de référentiel
+# Gestion des scénarios
 
 > Lisc
 
@@ -14,7 +14,7 @@ nom de référentiel
 -   [Sous-homme](./PODMAN.md)
 -   [Références](./REFERENCES.md)
 -   [Exigences](./REQUIREMENTS.md)
--   [Telemetry](./TELEMETRY.md)
+-   [Télémétrie](./TELEMETRY.md)
 
 **Résumé exécutif**
 

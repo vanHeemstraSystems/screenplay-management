@@ -1,14 +1,14 @@
-Repository-Namen
+Drehbuchmanagement
 
-# Repository -Name
+# Drehbuchverwaltung
 
 > Slugline
 
 -   [DNS](./DNS.md)
 -   [Dokumentation](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [Glossar](./GLOSSARY.md)
 -   [Luke](./HATCH.md)
--   [Hosts](./HOSTS.md)
+-   [Gastgeber](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)

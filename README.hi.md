@@ -1,12 +1,12 @@
 पटकथा-प्रबंधन
 
-# पटकथा प्रबंधन
+# Screenplay Management
 
 > स्लगलाइन
 
 -   [डीएनएस](./DNS.md)
 -   [प्रलेखन](./DOCUMENTATION.md)
--   [शब्दकोष](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [हैच](./HATCH.md)
 -   [मेजबान](./HOSTS.md)
 -   [इमेजिस](./IMAGES.md)

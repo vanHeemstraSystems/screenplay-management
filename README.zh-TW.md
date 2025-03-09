@@ -1,6 +1,6 @@
 劇本管理
 
-# 劇本管理
+# Screenplay Management
 
 > 板條
 

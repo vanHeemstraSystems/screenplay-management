@@ -1,6 +1,6 @@
-اسم المستودع
+إدارة السيناريو
 
-# اسم المستودع
+# إدارة السيناريو
 
 > Slugline
 
@@ -13,10 +13,10 @@
 -   [NX](./NX.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [متطلبات](./REQUIREMENTS.md)
 -   [القياس عن بعد](./TELEMETRY.md)
 
-**ملخص تنفيذي**
+**Executive Summary**
 
 نص
 
@@ -30,7 +30,7 @@
 
 يرى[README.md](./200/README.md)
 
-## 300 - بناء تطبيقنا
+## 300 - Building Our Application
 
 يرى[README.md](./300/README.md)
 

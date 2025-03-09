@@ -1,6 +1,6 @@
-repositorio
+gerencia de guiones
 
-# Nombre de repositorio
+# Gestión de guiones
 
 > Línea de babosa
 

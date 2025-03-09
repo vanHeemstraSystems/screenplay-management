@@ -1,5 +1,5 @@
-repository-name
-# Repository Name
+screenplay-management
+# Screenplay Management
 
 > Slugline
 

@@ -1,6 +1,6 @@
 劇本管理
 
-# Screenplay Management
+# 劇本管理
 
 > 板條
 
@@ -30,10 +30,10 @@
 
 看[README.md](./200/README.md)
 
-## 300-構建我們的應用程序
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 
-## 400-結論
+## 400 - Conclusion
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)

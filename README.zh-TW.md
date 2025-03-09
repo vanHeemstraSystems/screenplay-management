@@ -1,11 +1,11 @@
-repository-name
+劇本管理
 
-# 存儲庫名稱
+# 劇本管理
 
 > 板條
 
 -   [DNS](./DNS.md)
--   [Documentation](./DOCUMENTATION.md)
+-   [文件](./DOCUMENTATION.md)
 -   [詞彙表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)

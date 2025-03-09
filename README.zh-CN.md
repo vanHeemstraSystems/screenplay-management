@@ -1,4 +1,4 @@
-剧本管理
+screenplay-management
 
 # 剧本管理
 
@@ -12,11 +12,11 @@
 -   [图像](./IMAGES.md)
 -   [nx](./NX.md)
 -   [Subman](./PODMAN.md)
--   [参考](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [References](./REFERENCES.md)
+-   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
-**执行摘要**
+**Executive Summary**
 
 文本
 
@@ -30,7 +30,7 @@
 
 看[README.md](./200/README.md)
 
-## 300-构建我们的应用程序
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 

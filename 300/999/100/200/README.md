@@ -208,7 +208,7 @@ export function generateScreenplayApp(schema: {
 }
 ```
 
-Like with the Entity-Relationship Diagram (ERD) we further breakdown the Slugline inti its distinct components: Scene Type, Location, and Time of Day.
+Like with the Entity-Relationship Diagram (ERD) we further breakdown the Slugline into its distinct components: Scene Type, Location, and Time of Day.
 
 That's an excellent approach to further modularize the system. I'll restructure the monorepo to break down the slugline into three distinct services.
 

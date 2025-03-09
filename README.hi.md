@@ -9,7 +9,7 @@
 -   [शब्दकोष](./GLOSSARY.md)
 -   [हैच](./HATCH.md)
 -   [मेजबान](./HOSTS.md)
--   [इमेजिस](./IMAGES.md)
+-   [Images](./IMAGES.md)
 -   [नोकदार](./NX.md)
 -   [सबमैन](./PODMAN.md)
 -   [संदर्भ](./REFERENCES.md)

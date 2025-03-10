@@ -5,22 +5,22 @@
 > 板条
 
 -   [DNS](./DNS.md)
--   [Documentation](./DOCUMENTATION.md)
--   [词汇表](./GLOSSARY.md)
--   [Hatch](./HATCH.md)
+-   [文档](./DOCUMENTATION.md)
+-   [Glossary](./GLOSSARY.md)
+-   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [nx](./NX.md)
--   [Podman](./PODMAN.md)
--   [参考](./REFERENCES.md)
+-   [Subman](./PODMAN.md)
+-   [References](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
-**Executive Summary**
+**执行摘要**
 
 文本
 
-生成[ritr](https://app.rytr.me)
+Generated with [ritr](https://app.rytr.me)
 
 ## 100-简介
 

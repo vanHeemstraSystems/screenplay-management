@@ -6,13 +6,13 @@ gerencia de guiones
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
--   [Hatch](./HATCH.md)
+-   [Glosario](./GLOSSARY.md)
+-   [Escotilla](./HATCH.md)
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
 -   [Nx](./NX.md)
--   [Podman](./PODMAN.md)
--   [Referencias](./REFERENCES.md)
+-   [Submario](./PODMAN.md)
+-   [References](./REFERENCES.md)
 -   [Requisitos](./REQUIREMENTS.md)
 -   [Telemetría](./TELEMETRY.md)
 
@@ -20,7 +20,7 @@ gerencia de guiones
 
 Texto
 
-Generated with [Ritro](https://app.rytr.me)
+Generado con[Ritro](https://app.rytr.me)
 
 ## 100 - Introducción
 

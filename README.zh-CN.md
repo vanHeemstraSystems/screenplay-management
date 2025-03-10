@@ -1,4 +1,4 @@
-剧本管理
+screenplay-management
 
 # 剧本管理
 
@@ -6,13 +6,13 @@
 
 -   [DNS](./DNS.md)
 -   [文档](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [词汇表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [图像](./IMAGES.md)
 -   [nx](./NX.md)
 -   [Subman](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [参考](./REFERENCES.md)
 -   [要求](./REQUIREMENTS.md)
 -   [遥测](./TELEMETRY.md)
 
@@ -20,13 +20,13 @@
 
 文本
 
-Generated with [ritr](https://app.rytr.me)
+生成[ritr](https://app.rytr.me)
 
 ## 100-简介
 
 看[README.md](./100/README.md)
 
-## 200-要求
+## 200 - Requirements
 
 看[README.md](./200/README.md)
 

@@ -11,7 +11,7 @@ Drehbuchmanagement
 -   [Gastgeber](./HOSTS.md)
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
--   [Podman](./PODMAN.md)
+-   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
@@ -30,7 +30,7 @@ Sehen[README.md](./100/README.md)
 
 Sehen[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Aufbau unserer Bewerbung
 
 Sehen[README.md](./300/README.md)
 

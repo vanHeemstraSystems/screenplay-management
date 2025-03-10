@@ -1,4 +1,4 @@
-screenplay-management
+gerencia de guiones
 
 # Gestión de guiones
 
@@ -6,12 +6,12 @@ screenplay-management
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)
--   [Glosario](./GLOSSARY.md)
--   [Escotilla](./HATCH.md)
+-   [Glossary](./GLOSSARY.md)
+-   [Hatch](./HATCH.md)
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
 -   [Nx](./NX.md)
--   [Submario](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [Referencias](./REFERENCES.md)
 -   [Requisitos](./REQUIREMENTS.md)
 -   [Telemetría](./TELEMETRY.md)
@@ -20,7 +20,7 @@ screenplay-management
 
 Texto
 
-Generado con[Ritro](https://app.rytr.me)
+Generated with [Ritro](https://app.rytr.me)
 
 ## 100 - Introducción
 
@@ -34,6 +34,6 @@ Ver[README.md](./200/README.md)
 
 Ver[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - Conclusión
 
-See [README.md](./400/README.md)
+Ver[README.md](./400/README.md)

@@ -9,7 +9,7 @@
 -   [مسرد](./GLOSSARY.md)
 -   [فتحة](./HATCH.md)
 -   [المضيفين](./HOSTS.md)
--   [الصور](./IMAGES.md)
+-   [Images](./IMAGES.md)
 -   [NX](./NX.md)
 -   [رجل فرعي](./PODMAN.md)
 -   [مراجع](./REFERENCES.md)
@@ -20,7 +20,7 @@
 
 نص
 
-ولدت مع[ريتر](https://app.rytr.me)
+Generated with [ريتر](https://app.rytr.me)
 
 ## 100 - مقدمة
 

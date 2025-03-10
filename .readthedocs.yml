@@ -1,0 +1,13 @@
+# .readthedocs.yml
+# Read the Docs configuration file
+version: 2
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+  configuration: docs/source/conf.py
+
+# Optionally set the version of Python and requirements required
+python:
+  # version: 3.8 # REMOVE - version is deprecated
+  install:
+    - requirements: docs/requirements.txt 

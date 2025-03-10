@@ -13,9 +13,9 @@ This documentation covered:
 ## Next Steps
 
 Consider exploring these additional resources:
-- [API Documentation](https://google.com)
-- [Community Forums](https://google.com)
-- [Contributing Guidelines](https://google.com)
+- [API Documentation](https://api.yourproject.com/)
+- [Community Forums](https://community.yourproject.com/)
+- [Contributing Guidelines](https://github.com/yourusername/yourproject/CONTRIBUTING.md)
 
 ## Feedback
 

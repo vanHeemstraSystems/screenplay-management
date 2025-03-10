@@ -2,11 +2,11 @@
 
 # 劇本管理
 
-> Slugline
+> 板條
 
 -   [DNS](./DNS.md)
 -   [文件](./DOCUMENTATION.md)
--   [詞彙表](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
@@ -20,7 +20,7 @@
 
 文字
 
-生成[Rytr](https://app.rytr.me)
+生成[ritr](https://app.rytr.me)
 
 ## 100-簡介
 
@@ -30,7 +30,7 @@
 
 看[README.md](./200/README.md)
 
-## 300-構建我們的應用程序
+## 300 - Building Our Application
 
 看[README.md](./300/README.md)
 

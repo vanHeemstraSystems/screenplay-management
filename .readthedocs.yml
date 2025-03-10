@@ -8,6 +8,6 @@ sphinx:
 
 # Optionally set the version of Python and requirements required
 python:
-  # version: 3.8 # REMOVE - version is deprecated
+  version: 3.8
   install:
     - requirements: docs/requirements.txt 

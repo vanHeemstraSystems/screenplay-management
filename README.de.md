@@ -12,7 +12,7 @@ Drehbuchmanagement
 -   [Bilder](./IMAGES.md)
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [Referenzen](./REFERENCES.md)
 -   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
@@ -20,7 +20,7 @@ Drehbuchmanagement
 
 Text
 
-Erzeugt mit[Ritr](https://app.rytr.me)
+Generated with [Ritr](https://app.rytr.me)
 
 ## 100 - Einführung
 

@@ -10,11 +10,11 @@
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
--   [Nx](./NX.md)
+-   [nx](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [參考](./REFERENCES.md)
--   [要求](./REQUIREMENTS.md)
--   [Telemetry](./TELEMETRY.md)
+-   [Requirements](./REQUIREMENTS.md)
+-   [遙測](./TELEMETRY.md)
 
 **執行摘要**
 

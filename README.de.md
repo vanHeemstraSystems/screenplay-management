@@ -1,6 +1,6 @@
 Drehbuchmanagement
 
-# Drehbuchverwaltung
+# Screenplay Management
 
 > Slugline
 
@@ -13,7 +13,7 @@ Drehbuchmanagement
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
 **Zusammenfassung**
@@ -22,7 +22,7 @@ Text
 
 Erzeugt mit[Ritr](https://app.rytr.me)
 
-## 100 - Einführung
+## 100 - Introduction
 
 Sehen[README.md](./100/README.md)
 

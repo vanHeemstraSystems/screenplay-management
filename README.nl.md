@@ -7,7 +7,7 @@ scenario-management
 -   [DNS](./DNS.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Glossarium](./GLOSSARY.md)
--   [Klep](./HATCH.md)
+-   [Hatch](./HATCH.md)
 -   [Gastheren](./HOSTS.md)
 -   [Beelden](./IMAGES.md)
 -   [Nx](./NX.md)
@@ -34,6 +34,6 @@ Zien[README.md](./200/README.md)
 
 Zien[README.md](./300/README.md)
 
-## 400 - Conclusie
+## 400 - Conclusion
 
 Zien[README.md](./400/README.md)

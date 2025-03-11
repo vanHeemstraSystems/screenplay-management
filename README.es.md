@@ -11,7 +11,7 @@ gerencia de guiones
 -   [Anfitriones](./HOSTS.md)
 -   [Imágenes](./IMAGES.md)
 -   [Nx](./NX.md)
--   [Submario](./PODMAN.md)
+-   [Podman](./PODMAN.md)
 -   [Referencias](./REFERENCES.md)
 -   [Requisitos](./REQUIREMENTS.md)
 -   [Telemetría](./TELEMETRY.md)

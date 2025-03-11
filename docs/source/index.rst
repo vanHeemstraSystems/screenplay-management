@@ -1,5 +1,5 @@
 Welcome to Your Project Documentation
-===================================
+====================================
 
 .. toctree::
    :maxdepth: 2

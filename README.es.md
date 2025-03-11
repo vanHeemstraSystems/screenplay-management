@@ -2,7 +2,7 @@ gerencia de guiones
 
 # Gestión de guiones
 
-> Línea de babosa
+> Slugline
 
 -   [DNS](./DNS.md)
 -   [Documentación](./DOCUMENTATION.md)

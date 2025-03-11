@@ -1,4 +1,4 @@
-screenplay-management
+إدارة السيناريو
 
 # إدارة السيناريو
 
@@ -8,11 +8,11 @@ screenplay-management
 -   [الوثائق](./DOCUMENTATION.md)
 -   [مسرد](./GLOSSARY.md)
 -   [فتحة](./HATCH.md)
--   [Hosts](./HOSTS.md)
+-   [المضيفين](./HOSTS.md)
 -   [الصور](./IMAGES.md)
 -   [NX](./NX.md)
 -   [رجل فرعي](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [مراجع](./REFERENCES.md)
 -   [متطلبات](./REQUIREMENTS.md)
 -   [القياس عن بعد](./TELEMETRY.md)
 
@@ -24,7 +24,7 @@ screenplay-management
 
 ## 100 - مقدمة
 
-See [README.md](./100/README.md)
+يرى[README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
@@ -36,4 +36,4 @@ See [README.md](./100/README.md)
 
 ## 400 - الخلاصة
 
-See [README.md](./400/README.md)
+يرى[README.md](./400/README.md)

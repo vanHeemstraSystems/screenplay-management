@@ -9,10 +9,10 @@ scenario-management
 -   [Glossarium](./GLOSSARY.md)
 -   [Klep](./HATCH.md)
 -   [Gastheren](./HOSTS.md)
--   [Beelden](./IMAGES.md)
+-   [Images](./IMAGES.md)
 -   [Nx](./NX.md)
 -   [Subman](./PODMAN.md)
--   [References](./REFERENCES.md)
+-   [Referenties](./REFERENCES.md)
 -   [Vereisten](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 

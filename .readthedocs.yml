@@ -28,7 +28,7 @@ formats:
   - pdf
   - epub
 
-# Make sure to install requirements
+# Simplified python section
 python:
   install:
     - requirements: docs/requirements.txt

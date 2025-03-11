@@ -1,7 +1,7 @@
-# Documentation dependencies without version pins
+# Core documentation packages without version pins
 sphinx
 sphinx_rtd_theme
 recommonmark
 myst-parser
 
-# Remove any pip upgrade commands as they can cause hash verification issues
+# Do not include pip upgrade commands here

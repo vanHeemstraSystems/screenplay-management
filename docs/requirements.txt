@@ -1,7 +1,7 @@
-# Core documentation packages
-sphinx==8.2.3
-sphinx_rtd_theme==2.0.0
-recommonmark==0.7.1
-myst-parser==2.0.0
+# Documentation dependencies without version pins
+sphinx
+sphinx_rtd_theme
+recommonmark
+myst-parser
 
 # Remove any pip upgrade commands as they can cause hash verification issues

@@ -20,7 +20,7 @@
 
 文字
 
-Generated with [Rytr](https://app.rytr.me)
+生成[ritr](https://app.rytr.me)
 
 ## 100-簡介
 

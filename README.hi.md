@@ -14,7 +14,7 @@
 -   [सबमैन](./PODMAN.md)
 -   [संदर्भ](./REFERENCES.md)
 -   [आवश्यकताएं](./REQUIREMENTS.md)
--   [Telemetry](./TELEMETRY.md)
+-   [टेलीमेटरी](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
 

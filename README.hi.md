@@ -2,25 +2,25 @@
 
 # पटकथा प्रबंधन
 
-> स्लगलाइन
+> Slugline
 
--   [DNS](./DNS.md)
+-   [डीएनएस](./DNS.md)
 -   [प्रलेखन](./DOCUMENTATION.md)
 -   [शब्दकोष](./GLOSSARY.md)
 -   [हैच](./HATCH.md)
 -   [मेजबान](./HOSTS.md)
--   [इमेजिस](./IMAGES.md)
--   [Nx](./NX.md)
+-   [Images](./IMAGES.md)
+-   [नोकदार](./NX.md)
 -   [सबमैन](./PODMAN.md)
 -   [संदर्भ](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [आवश्यकताएं](./REQUIREMENTS.md)
 -   [टेलीमेटरी](./TELEMETRY.md)
 
 **कार्यकारी सारांश**
 
 मूलपाठ
 
-Generated with [रिट्र](https://app.rytr.me)
+के साथ उत्पन्न[रिट्र](https://app.rytr.me)
 
 ## 100 - परिचय
 

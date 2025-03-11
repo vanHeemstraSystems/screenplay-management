@@ -40,6 +40,136 @@ npm ci  # This installs dependencies exactly as specified in package-lock.json
 npm install -g @nrwl/cli
 ```
 
+Make sure you have a tsconfig.base.json file in your hatch-project/src/hatch_project directory. If not, create one:
+
+```json
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "exclude": ["node_modules", "tmp"]
+}
+```
+
+Make sure you have a tsconfig.app.json file in your hatch-project/src/hatch_project directory. If not, create one:
+
+```json
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": ["node"],
+    "module": "esnext",
+    "target": "es2015",
+    "lib": ["es2020", "dom"],
+    "sourceMap": true,
+    "declaration": false
+  },
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
+  "include": ["**/*.ts"]
+}
+```
+
+Make sure you have a project.json file in your hatch-project/src/hatch_project directory. If not, create one:
+
+```json
+{
+  "name": "hatch_project",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "hatch-project/src/hatch_project/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/hatch_project",
+        "compiler": "babel",
+        "main": "hatch-project/src/hatch_project/src/main.ts",
+        "tsConfig": "hatch-project/src/hatch_project/tsconfig.app.json",
+        "webpackConfig": "hatch-project/src/hatch_project/webpack.config.js",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "hatch-project/src/hatch_project/src/assets",
+            "output": "assets"
+          }
+        ],
+        "index": "hatch-project/src/hatch_project/src/index.html"
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "extractCss": true,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "2mb",
+              "maximumError": "5mb"
+            }
+          ]
+        },
+        "development": {
+          "optimization": false,
+          "sourceMap": true,
+          "extractCss": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/webpack:dev-server",
+      "options": {
+        "buildTarget": "hatch_project:build",
+        "hmr": true,
+        "port": 4200
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "hatch_project:build:production"
+        },
+        "development": {
+          "buildTarget": "hatch_project:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    }
+  }
+}
+```
+
+Create a basic webpack.config.js file in your project:
+
+```javascript
+const { composePlugins, withNx } = require('@nx/webpack');
+
+// Nx plugins for webpack.
+module.exports = composePlugins(withNx(), (config) => {
+  // Update the webpack config as needed here.
+  // e.g. `config.plugins.push(new MyPlugin())`
+  return config;
+});
+```
+
 4. To serve the application in development mode:
 ```bash
 npx nx serve hatch_project
@@ -49,6 +179,12 @@ This will:
 - Start a development server
 - Usually be available at http://localhost:4200
 - Auto-reload when you make changes
+
+If that doesn't work, we might need to check if Nx recognizes the project:
+
+```bash
+npx nx show project hatch_project
+```
 
 5. Alternatively, if you want to build the application:
 ```bash

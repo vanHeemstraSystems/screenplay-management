@@ -5,15 +5,15 @@ Welcome to Your Project Documentation
    :maxdepth: 2
    :caption: Contents:
 
-   100/index
-   100/details
-   200/index
-   200/advanced
-   300/index
-   300/deployment
-   300/setup
-   400/index
-   400/next_steps
+   100/index: "Introduction"
+   100/details: "Project Details"
+   200/index: "Advanced Features"
+   200/advanced: "API Reference"
+   300/index: "Deployment Guide"
+   300/deployment: "Deployment Steps"
+   300/setup: "Setup Instructions"
+   400/index: "Next Steps"
+   400/next_steps: "Future Features"
 
 Indices and tables
 ==================

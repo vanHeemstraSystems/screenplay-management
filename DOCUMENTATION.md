@@ -1,6 +1,6 @@
 # Documentation
 
-Read the Docs: [REPOSITORY-NAME](https://vanheemstrasystems-REPOSITORY-NAME.readthedocs.io/en/latest/)
+Read the Docs: [vanHeemstraSystems-screenplay-management](https://vanheemstrasystems-screenplay-management.readthedocs.io/en/latest/)
 
 ## 100 - Install ReadTheDocs
 

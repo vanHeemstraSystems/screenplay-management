@@ -13,7 +13,7 @@ Drehbuchmanagement
 -   [NX](./NX.md)
 -   [Subman](./PODMAN.md)
 -   [Referenzen](./REFERENCES.md)
--   [Requirements](./REQUIREMENTS.md)
+-   [Anforderungen](./REQUIREMENTS.md)
 -   [Telemetrie](./TELEMETRY.md)
 
 **Zusammenfassung**

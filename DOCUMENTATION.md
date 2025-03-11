@@ -1,6 +1,6 @@
 # Documentation
 
-Read the Docs: [vanHeemstraSystems-screenplay-management](https://vanheemstrasystems-screenplay-management.readthedocs.io/en/latest/)
+Read the Docs: [vanHeemstraSystems-screenplay-management](https://vanHeemstraSystems-screenplay-management.readthedocs.io/en/latest/)
 
 ## 100 - Install ReadTheDocs
 
@@ -76,3 +76,7 @@ On [ReadTheDocs](https://readthedocs.org/), after logging in navigate to your Gi
 - **Missing images**: Ensure all image paths are updated
 - **Build failures**: Check the ReadTheDocs build logs for errors
 - **Formatting differences**: Some Markdown features might render differently in Sphinx
+
+## 1000 - View the Documentation
+
+Visit https://vanHeemstraSystems-screenplay-management.readthedocs.io/en/latest/

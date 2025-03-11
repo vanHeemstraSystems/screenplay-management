@@ -5,8 +5,8 @@
 > 板條
 
 -   [DNS](./DNS.md)
--   [文件](./DOCUMENTATION.md)
--   [Glossary](./GLOSSARY.md)
+-   [Documentation](./DOCUMENTATION.md)
+-   [詞彙表](./GLOSSARY.md)
 -   [孵化](./HATCH.md)
 -   [主持人](./HOSTS.md)
 -   [圖像](./IMAGES.md)
@@ -26,7 +26,7 @@
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200-要求
 
 看[README.md](./200/README.md)
 

@@ -21,7 +21,7 @@ Your docs will be created inside ```docs/build```.
 
 ## 200 - Autogeneration of ReadTheDocs
 
-1) Make sure there is a ```.readthedocs.yml``` file at the roor of your GitHub repository.
+1) Make sure there is a ```.readthedocs.yml``` file at the root of your GitHub repository.
 
 2) Connect your GitHub repository to ReadTheDocs at https://readthedocs.org/
 
